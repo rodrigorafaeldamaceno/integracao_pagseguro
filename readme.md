@@ -1,5 +1,9 @@
 # Integração com pagseguro
 
+## Documentação oficial
+
+* https://dev.pagseguro.uol.com.br/reference#transparente-introducao
+
 ## Links ambiente real
 
 * https://pagseguro.uol.com.br
