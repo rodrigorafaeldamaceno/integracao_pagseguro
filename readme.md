@@ -4,6 +4,10 @@
 
 * https://dev.pagseguro.uol.com.br/reference#transparente-introducao
 
+## Coletion Postman
+
+* https://documenter.getpostman.com/view/4711102/SVfGyC4D?version=latest
+
 ## Links ambiente real
 
 * https://pagseguro.uol.com.br
