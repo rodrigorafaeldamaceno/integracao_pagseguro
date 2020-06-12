@@ -1,0 +1,89 @@
+{
+  "mode": "default",
+  "method": "creditCard",
+  "sender": {
+    "name": "Jose Comprador",
+    "email": "comprador@sandbox.pagseguro.com.br",
+    "phone": {
+      "areaCode": "11",
+      "number": "30380000"
+    },
+    "documents": {
+      "document": {
+        "type": "CPF",
+        "value": "22111944785"
+      }
+    },
+    "hash": "{{hash_do_comprador}}"
+  },
+  "currency": "BRL",
+  "notificationURL": "https://sualoja.com.br/notificacao",
+  "items": {
+    "item": {
+      "id": [
+        "1",
+        "2"
+      ],
+      "description": [
+        "Notebook Prata",
+        "Notebook Azul"
+      ],
+      "quantity": [
+        "1",
+        "1"
+      ],
+      "amount": [
+        "10300.00",
+        "10000.00"
+      ]
+    }
+  },
+  "extraAmount": "0.00",
+  "reference": "R123456",
+  "shipping": {
+    "addressRequired": "true",
+    "address": {
+      "street": "Av. Brigadeiro Faria Lima",
+      "number": "1384",
+      "complement": "1 andar",
+      "district": "Jardim Paulistano",
+      "city": "Sao Paulo",
+      "state": "SP",
+      "country": "BRA",
+      "postalCode": "01452002"
+    },
+    "type": "1",
+    "cost": "1.00"
+  },
+  "creditCard": {
+    "token": "{{token_do_cartao}}",
+    "installment": {
+      "quantity": "2",
+      "value": "5.23"
+    },
+    "holder": {
+      "name": "Nome impresso no cartao",
+      "documents": {
+        "document": {
+          "type": "CPF",
+          "value": "22111944785"
+        }
+      },
+      "birthDate": "20/10/1980",
+      "phone": {
+        "areaCode": "11",
+        "number": "999991111"
+      }
+    },
+    "billingAddress": {
+      "street": "Av. Brigadeiro Faria Lima",
+      "number": "1384",
+      "complement": "1 andar",
+      "district": "Jardim Paulistano",
+      "city": "Sao Paulo",
+      "state": "SP",
+      "country": "BRA",
+      "postalCode": "01452002"
+    }
+  }
+}

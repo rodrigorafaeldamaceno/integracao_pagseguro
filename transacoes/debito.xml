@@ -1,0 +1,46 @@
+<payment>
+  <mode>default</mode>
+  <method>eft</method>
+  <sender>
+    <name>Fulano Silva</name>
+    <email>fulano.silva@sandbox.pagseguro.com.br</email>
+    <phone>
+      <areaCode>11</areaCode>
+      <number>30380000</number>
+    </phone>
+    <documents>
+      <document>
+        <type>CPF</type>
+        <value>72962940005</value>
+      </document>
+    </documents>
+    <hash>{{hash_do_comprador}}</hash>
+  </sender>
+  <currency>BRL</currency>
+  <notificationURL>https://sualoja.com.br/notificacao</notificationURL>
+  <items>
+    <item>
+      <id>1</id>
+      <description>Descricao do item a ser vendido</description>
+      <quantity>2</quantity>
+      <amount>1.00</amount>
+    </item>
+  </items>
+  <extraAmount>0.00</extraAmount>
+  <reference>R123456</reference>
+  <shipping>
+    <addressRequired>true</addressRequired>
+    <address>
+      <street>Av. Brigadeiro Faria Lima</street>
+      <number>1384</number>
+      <complement>1 andar</complement>
+      <district>Jardim Paulistano</district>
+      <city>Sao Paulo</city>
+      <state>SP</state>
+      <country>BRA</country>
+      <postalCode>01452002</postalCode>
+    </address>
+    <type>3</type>
+    <cost>0.00</cost>
+  </shipping>
+</payment>

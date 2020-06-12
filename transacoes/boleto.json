@@ -1,0 +1,46 @@
+{
+  "mode": "default",
+  "method": "boleto",
+  "sender": {
+    "name": "Fulano Silva",
+    "email": "fulano.silva@sandbox.pagseguro.com.br",
+    "phone": {
+      "areaCode": "11",
+      "number": "30380000"
+    },
+    "documents": {
+      "document": {
+        "type": "CPF",
+        "value": "72962940005"
+      }
+    },
+    "hash": "{{hash_do_comprador}}"
+  },
+  "currency": "BRL",
+  "notificationURL": "https://sualoja.com.br/notificacao",
+  "items": {
+    "item": {
+      "id": "1",
+      "description": "Descricao do item a ser vendido",
+      "quantity": "2",
+      "amount": "1.00"
+    }
+  },
+  "extraAmount": "0.00",
+  "reference": "R123456",
+  "shipping": {
+    "addressRequired": "true",
+    "address": {
+      "street": "Av. Brigadeiro Faria Lima",
+      "number": "1384",
+      "complement": "1 andar",
+      "district": "Jardim Paulistano",
+      "city": "Sao Paulo",
+      "state": "SP",
+      "country": "BRA",
+      "postalCode": "01452002"
+    },
+    "type": "3",
+    "cost": "0.00"
+  }
+}
